@@ -1,0 +1,62 @@
+.commonPage {
+  position: relative;
+  height: 100%;
+  padding: 20px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.formPage {
+  position: relative;
+  height: 100%;
+  padding: 20px 20px 60px 20px ;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+.formBody{
+  margin-top: 10px;
+  width: 100%;
+  height: calc(100vh - 180px);
+  overflow: auto;
+}
+.formShowH{
+  padding-right: 10px;
+}
+.formShowH::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width : 5px;  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 5px;
+}
+.formShowH::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 5px;
+  box-shadow   : inset 0 0 5px rgba(116, 116, 116, 0.31);
+  background   : #848484;
+}
+.formShowH::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  box-shadow   : inset 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background   : #ededed;
+}
+.likeButton{
+  display: inline-block;
+  margin: 5px 10px 5px 0;
+  padding:4px 6px;
+  font-size: 10px;
+  text-align: center;
+  border-radius:4px;
+  background: #008590;
+  color: #fff;
+}
+.likeButton:last-child{
+  margin-bottom: 0;
+}
+
+
+.popButton{
+  display: flex;
+  justify-content: center;
+}
+.el-pagination__editor.el-input{
+  width: 50px !important;
+}
